@@ -1,0 +1,560 @@
+2019-02-24 02:50:44,793 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-02-24 02:50:44,832 INFO org.apache.hadoop.hdfs.tools.DFSZKFailoverController: Failover controller configured for NameNode NameNode at slaver1/192.168.33.133:8020
+2019-02-24 02:50:44,964 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-02-24 02:50:44,964 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=slaver1
+2019-02-24 02:50:44,964 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.8.0_144
+2019-02-24 02:50:44,964 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/java/jdk1.8.0_144/jre
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/opt/hadoop//etc/hadoop:/opt/hadoop/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/opt/hadoop/share/hadoop/common/lib/stax-api-1.0-2.jar:/opt/hadoop/share/hadoop/common/lib/activation-1.1.jar:/opt/hadoop/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/common/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/common/lib/jets3t-0.9.0.jar:/opt/hadoop/share/hadoop/common/lib/httpclient-4.2.5.jar:/opt/hadoop/share/hadoop/common/lib/httpcore-4.2.5.jar:/opt/hadoop/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/opt/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/opt/hadoop/share/hadoop/common/lib/commons-digester-1.8.jar:/opt/hadoop/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/opt/hadoop/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/opt/hadoop/share/hadoop/common/lib/slf4j-api-1.7.10.jar:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar:/opt/hadoop/share/hadoop/common/lib/avro-1.7.4.jar:/opt/hadoop/share/hadoop/common/lib/paranamer-2.3.jar:/opt/hadoop/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-compress-1.4.1.jar:/opt/hadoop/share/hadoop/common/lib/xz-1.0.jar:/opt/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/common/lib/gson-2.2.4.jar:/opt/hadoop/share/hadoop/common/lib/hadoop-auth-2.7.3.jar:/opt/hadoop/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/hadoop/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/opt/hadoop/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/opt/hadoop/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/opt/hadoop/share/hadoop/common/lib/zookeeper-3.4.6.jar:/opt/hadoop/share/hadoop/common/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/common/lib/curator-framework-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/curator-client-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/jsch-0.1.42.jar:/opt/hadoop/share/hadoop/common/lib/curator-recipes-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop/share/hadoop/common/lib/junit-4.11.jar:/opt/hadoop/share/hadoop/common/lib/hamcrest-core-1.3.jar:/opt/hadoop/share/hadoop/common/lib/mockito-all-1.8.5.jar:/opt/hadoop/share/hadoop/common/lib/hadoop-annotations-2.7.3.jar:/opt/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/opt/hadoop/share/hadoop/common/lib/jsr305-3.0.0.jar:/opt/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/hadoop/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/hadoop/share/hadoop/common/lib/xmlenc-0.52.jar:/opt/hadoop/share/hadoop/common/lib/commons-httpclient-3.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/hadoop/share/hadoop/common/lib/commons-codec-1.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-net-3.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/hadoop/share/hadoop/common/lib/servlet-api-2.5.jar:/opt/hadoop/share/hadoop/common/lib/jetty-6.1.26.jar:/opt/hadoop/share/hadoop/common/lib/jetty-util-6.1.26.jar:/opt/hadoop/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/hadoop/share/hadoop/common/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/common/lib/jersey-json-1.9.jar:/opt/hadoop/share/hadoop/common/lib/jettison-1.1.jar:/opt/hadoop/share/hadoop/common/hadoop-common-2.7.3.jar:/opt/hadoop/share/hadoop/common/hadoop-common-2.7.3-tests.jar:/opt/hadoop/share/hadoop/common/hadoop-nfs-2.7.3.jar:/opt/hadoop/share/hadoop/hdfs:/opt/hadoop/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/opt/hadoop/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/hadoop/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/hdfs/lib/guava-11.0.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/jsr305-3.0.0.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/opt/hadoop/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/opt/hadoop/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/opt/hadoop/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/hdfs/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/opt/hadoop/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/hdfs/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/netty-all-4.0.23.Final.jar:/opt/hadoop/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar:/opt/hadoop/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar:/opt/hadoop/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.3.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.3-tests.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-nfs-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/zookeeper-3.4.6-tests.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-lang-2.6.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guava-11.0.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jsr305-3.0.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-cli-1.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/activation-1.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/xz-1.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/servlet-api-2.5.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-codec-1.4.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-client-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guice-3.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-io-2.4.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/asm-3.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-json-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jettison-1.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-collections-3.2.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jetty-6.1.26.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-api-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-common-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-common-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-tests-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-client-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-registry-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/xz-1.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/hadoop-annotations-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/opt/hadoop/share/hadoop/mapreduce/lib/guice-3.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/javax.inject-1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/junit-4.11.jar:/opt/hadoop/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.3-tests.jar:/contrib/capacity-scheduler/*.jar:/opt/hadoop/contrib/capacity-scheduler/*.jar:/opt/hadoop/contrib/capacity-scheduler/*.jar
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/opt/hadoop/lib
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2019-02-24 02:50:44,965 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2019-02-24 02:50:44,967 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2019-02-24 02:50:44,967 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.10.0-957.el7.x86_64
+2019-02-24 02:50:44,967 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=root
+2019-02-24 02:50:44,967 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/root
+2019-02-24 02:50:44,967 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/opt/hadoop-2.7.3
+2019-02-24 02:50:44,968 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@36902638
+2019-02-24 02:50:44,985 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server slaver2/192.168.33.134:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 02:50:44,993 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to slaver2/192.168.33.134:2181, initiating session
+2019-02-24 02:50:45,004 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server slaver2/192.168.33.134:2181, sessionid = 0x3691e4fba4f0001, negotiated timeout = 4000
+2019-02-24 02:50:45,016 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 02:50:45,026 INFO org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2019-02-24 02:50:45,044 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 8019
+2019-02-24 02:50:45,077 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2019-02-24 02:50:45,079 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8019: starting
+2019-02-24 02:50:46,137 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:46,145 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:46,147 INFO org.apache.hadoop.ha.HealthMonitor: Entering state SERVICE_NOT_RESPONDING
+2019-02-24 02:50:46,147 INFO org.apache.hadoop.ha.ZKFailoverController: Local service NameNode at slaver1/192.168.33.133:8020 entered state: SERVICE_NOT_RESPONDING
+2019-02-24 02:50:46,149 INFO org.apache.hadoop.ha.ZKFailoverController: Quitting master election for NameNode at slaver1/192.168.33.133:8020 and marking that fencing is necessary
+2019-02-24 02:50:46,149 INFO org.apache.hadoop.ha.ActiveStandbyElector: Yielding from election
+2019-02-24 02:50:46,159 INFO org.apache.zookeeper.ZooKeeper: Session: 0x3691e4fba4f0001 closed
+2019-02-24 02:50:46,159 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 02:50:48,163 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:48,164 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:50,172 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:50,173 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:52,190 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:52,191 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:54,193 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:54,194 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:56,203 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:56,204 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:50:58,209 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:50:58,211 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:51:00,215 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:51:00,218 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:51:02,221 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:51:02,223 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:51:04,227 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:51:04,229 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:51:06,238 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:51:06,239 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 02:51:07,269 INFO org.apache.hadoop.ha.HealthMonitor: Entering state SERVICE_HEALTHY
+2019-02-24 02:51:07,269 INFO org.apache.hadoop.ha.ZKFailoverController: Local service NameNode at slaver1/192.168.33.133:8020 entered state: SERVICE_HEALTHY
+2019-02-24 02:51:07,273 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@4277a29d
+2019-02-24 02:51:07,274 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server master/192.168.33.132:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 02:51:07,276 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to master/192.168.33.132:2181, initiating session
+2019-02-24 02:51:07,279 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server master/192.168.33.132:2181, sessionid = 0x1691e4fa48c0001, negotiated timeout = 4000
+2019-02-24 02:51:07,283 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 02:51:07,292 INFO org.apache.hadoop.ha.ZKFailoverController: ZK Election indicated that NameNode at slaver1/192.168.33.133:8020 should become standby
+2019-02-24 02:51:07,320 INFO org.apache.hadoop.ha.ZKFailoverController: Successfully transitioned NameNode at slaver1/192.168.33.133:8020 to standby state
+2019-02-24 02:54:01,184 INFO org.apache.hadoop.ha.ActiveStandbyElector: Checking for any old active which needs to be fenced...
+2019-02-24 02:54:01,197 INFO org.apache.hadoop.ha.ActiveStandbyElector: Old node exists: 0a096d79636c757374657212036e6e311a066d617374657220d43e28d33e
+2019-02-24 02:54:01,199 INFO org.apache.hadoop.ha.ZKFailoverController: Should fence: NameNode at master/192.168.33.132:8020
+2019-02-24 02:54:02,202 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/192.168.33.132:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 02:54:02,206 WARN org.apache.hadoop.ha.FailoverController: Unable to gracefully make NameNode at master/192.168.33.132:8020 standby (unable to connect)
+java.net.ConnectException: Call From slaver1/192.168.33.133 to master:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToStandby(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToStandby(HAServiceProtocolClientSideTranslatorPB.java:112)
+	at org.apache.hadoop.ha.FailoverController.tryGracefulFence(FailoverController.java:172)
+	at org.apache.hadoop.ha.ZKFailoverController.doFence(ZKFailoverController.java:514)
+	at org.apache.hadoop.ha.ZKFailoverController.fenceOldActive(ZKFailoverController.java:505)
+	at org.apache.hadoop.ha.ZKFailoverController.access$1100(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.fenceOldActive(ZKFailoverController.java:892)
+	at org.apache.hadoop.ha.ActiveStandbyElector.fenceOldActive(ActiveStandbyElector.java:910)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:809)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 14 more
+2019-02-24 02:54:02,215 INFO org.apache.hadoop.ha.NodeFencer: ====== Beginning Service Fencing Process... ======
+2019-02-24 02:54:02,215 INFO org.apache.hadoop.ha.NodeFencer: Trying method 1/2: org.apache.hadoop.ha.SshFenceByTcpPort(null)
+2019-02-24 02:54:02,274 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connecting to master...
+2019-02-24 02:54:02,275 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connecting to master port 22
+2019-02-24 02:54:02,279 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connection established
+2019-02-24 02:54:02,289 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Remote version string: SSH-2.0-OpenSSH_7.4
+2019-02-24 02:54:02,290 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Local version string: SSH-2.0-JSCH-0.1.42
+2019-02-24 02:54:02,290 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-ctr is not available.
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-ctr is not available.
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-cbc is not available.
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-cbc is not available.
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: arcfour256 is not available.
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT sent
+2019-02-24 02:54:02,441 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT received
+2019-02-24 02:54:02,442 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: server->client aes128-ctr hmac-sha1 none
+2019-02-24 02:54:02,442 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: client->server aes128-ctr hmac-sha1 none
+2019-02-24 02:54:02,449 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXDH_INIT sent
+2019-02-24 02:54:02,449 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: expecting SSH_MSG_KEXDH_REPLY
+2019-02-24 02:54:02,457 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: ssh_rsa_verify: signature true
+2019-02-24 02:54:02,458 WARN org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Permanently added 'master' (RSA) to the list of known hosts.
+2019-02-24 02:54:02,458 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS sent
+2019-02-24 02:54:02,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS received
+2019-02-24 02:54:02,461 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_REQUEST sent
+2019-02-24 02:54:02,461 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_ACCEPT received
+2019-02-24 02:54:02,463 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: gssapi-with-mic,publickey,keyboard-interactive,password
+2019-02-24 02:54:02,463 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: gssapi-with-mic
+2019-02-24 02:54:02,466 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: publickey,keyboard-interactive,password
+2019-02-24 02:54:02,466 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: publickey
+2019-02-24 02:54:02,523 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentication succeeded (publickey).
+2019-02-24 02:54:02,523 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connected to master
+2019-02-24 02:54:02,523 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Looking for process running on port 8020
+2019-02-24 02:54:02,780 WARN org.apache.hadoop.ha.SshFenceByTcpPort: PATH=$PATH:/sbin:/usr/sbin fuser -v -k -n tcp 8020 via ssh: bash: fuser: command not found
+2019-02-24 02:54:02,782 INFO org.apache.hadoop.ha.SshFenceByTcpPort: rc: 127
+2019-02-24 02:54:02,782 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Disconnecting from master port 22
+2019-02-24 02:54:02,785 WARN org.apache.hadoop.ha.NodeFencer: Fencing method org.apache.hadoop.ha.SshFenceByTcpPort(null) was unsuccessful.
+2019-02-24 02:54:02,785 INFO org.apache.hadoop.ha.NodeFencer: Trying method 2/2: org.apache.hadoop.ha.ShellCommandFencer(/bin/true)
+2019-02-24 02:54:02,798 INFO org.apache.hadoop.ha.ShellCommandFencer: Launched fencing command '/bin/true' with pid 41734
+2019-02-24 02:54:02,797 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Caught an exception, leaving main loop due to Socket closed
+2019-02-24 02:54:02,802 INFO org.apache.hadoop.ha.NodeFencer: ====== Fencing successful by method org.apache.hadoop.ha.ShellCommandFencer(/bin/true) ======
+2019-02-24 02:54:02,802 INFO org.apache.hadoop.ha.ActiveStandbyElector: Writing znode /hadoop-ha/mycluster/ActiveBreadCrumb to indicate that the local node is the most recent active...
+2019-02-24 02:54:02,814 INFO org.apache.hadoop.ha.ZKFailoverController: Trying to make NameNode at slaver1/192.168.33.133:8020 active...
+2019-02-24 02:54:03,680 INFO org.apache.hadoop.ha.ZKFailoverController: Successfully transitioned NameNode at slaver1/192.168.33.133:8020 to active state
+2019-02-24 02:56:47,698 INFO org.apache.hadoop.hdfs.tools.DFSZKFailoverController: Allowed RPC access from root (auth:SIMPLE) at 192.168.33.132
+2019-02-24 02:56:47,701 INFO org.apache.hadoop.ha.ZKFailoverController: Requested by root (auth:SIMPLE) at 192.168.33.132 to cede active role.
+2019-02-24 02:56:47,738 INFO org.apache.hadoop.ha.ZKFailoverController: Successfully ensured local node is in standby mode
+2019-02-24 02:56:47,738 INFO org.apache.hadoop.ha.ActiveStandbyElector: Yielding from election
+2019-02-24 02:56:47,738 INFO org.apache.hadoop.ha.ActiveStandbyElector: Deleting bread-crumb of active node...
+2019-02-24 02:56:47,757 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1691e4fa48c0001 closed
+2019-02-24 02:56:47,757 INFO org.apache.hadoop.ha.ZKFailoverController: Would have joined master election, but this node is prohibited from doing so for 9981 more ms
+2019-02-24 02:56:47,759 WARN org.apache.hadoop.ha.ActiveStandbyElector: Ignoring stale result from old client with sessionId 0x1691e4fa48c0001
+2019-02-24 02:56:47,759 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 02:56:48,003 INFO org.apache.hadoop.hdfs.tools.DFSZKFailoverController: Allowed RPC access from root (auth:SIMPLE) at 192.168.33.132
+2019-02-24 02:56:48,004 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@6407be83
+2019-02-24 02:56:48,005 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server master/192.168.33.132:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 02:56:48,006 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to master/192.168.33.132:2181, initiating session
+2019-02-24 02:56:48,013 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server master/192.168.33.132:2181, sessionid = 0x1691e4fa48c0003, negotiated timeout = 4000
+2019-02-24 02:56:48,015 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 02:56:48,019 INFO org.apache.hadoop.ha.ZKFailoverController: ZK Election indicated that NameNode at slaver1/192.168.33.133:8020 should become standby
+2019-02-24 02:56:48,023 INFO org.apache.hadoop.ha.ZKFailoverController: Successfully transitioned NameNode at slaver1/192.168.33.133:8020 to standby state
+2019-02-24 02:56:57,741 INFO org.apache.hadoop.ha.ActiveStandbyElector: Already in election. Not re-connecting.
+2019-02-24 08:10:37,856 INFO org.apache.hadoop.ha.ActiveStandbyElector: Checking for any old active which needs to be fenced...
+2019-02-24 08:10:37,859 INFO org.apache.hadoop.ha.ActiveStandbyElector: Old node exists: 0a096d79636c757374657212036e6e311a066d617374657220d43e28d33e
+2019-02-24 08:10:37,863 INFO org.apache.hadoop.ha.ZKFailoverController: Should fence: NameNode at master/192.168.33.132:8020
+2019-02-24 08:10:38,368 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.io.EOFException End of File Exception between local host is: "slaver1/192.168.33.133"; destination host is: "slaver1":8020; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException
+2019-02-24 08:10:38,369 INFO org.apache.hadoop.ha.HealthMonitor: Entering state SERVICE_NOT_RESPONDING
+2019-02-24 08:10:38,867 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/192.168.33.132:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:38,870 WARN org.apache.hadoop.ha.FailoverController: Unable to gracefully make NameNode at master/192.168.33.132:8020 standby (unable to connect)
+java.net.ConnectException: Call From slaver1/192.168.33.133 to master:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToStandby(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToStandby(HAServiceProtocolClientSideTranslatorPB.java:112)
+	at org.apache.hadoop.ha.FailoverController.tryGracefulFence(FailoverController.java:172)
+	at org.apache.hadoop.ha.ZKFailoverController.doFence(ZKFailoverController.java:514)
+	at org.apache.hadoop.ha.ZKFailoverController.fenceOldActive(ZKFailoverController.java:505)
+	at org.apache.hadoop.ha.ZKFailoverController.access$1100(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.fenceOldActive(ZKFailoverController.java:892)
+	at org.apache.hadoop.ha.ActiveStandbyElector.fenceOldActive(ActiveStandbyElector.java:910)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:809)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 14 more
+2019-02-24 08:10:38,876 INFO org.apache.hadoop.ha.NodeFencer: ====== Beginning Service Fencing Process... ======
+2019-02-24 08:10:38,877 INFO org.apache.hadoop.ha.NodeFencer: Trying method 1/2: org.apache.hadoop.ha.SshFenceByTcpPort(null)
+2019-02-24 08:10:38,886 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connecting to master...
+2019-02-24 08:10:38,887 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connecting to master port 22
+2019-02-24 08:10:38,891 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connection established
+2019-02-24 08:10:38,907 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Remote version string: SSH-2.0-OpenSSH_7.4
+2019-02-24 08:10:38,907 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Local version string: SSH-2.0-JSCH-0.1.42
+2019-02-24 08:10:38,907 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2019-02-24 08:10:38,915 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-ctr is not available.
+2019-02-24 08:10:38,915 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-ctr is not available.
+2019-02-24 08:10:38,915 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-cbc is not available.
+2019-02-24 08:10:38,915 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-cbc is not available.
+2019-02-24 08:10:38,915 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: arcfour256 is not available.
+2019-02-24 08:10:38,916 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT sent
+2019-02-24 08:10:38,916 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT received
+2019-02-24 08:10:38,916 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: server->client aes128-ctr hmac-sha1 none
+2019-02-24 08:10:38,916 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: client->server aes128-ctr hmac-sha1 none
+2019-02-24 08:10:38,922 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXDH_INIT sent
+2019-02-24 08:10:38,922 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: expecting SSH_MSG_KEXDH_REPLY
+2019-02-24 08:10:38,925 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: ssh_rsa_verify: signature true
+2019-02-24 08:10:38,926 WARN org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Permanently added 'master' (RSA) to the list of known hosts.
+2019-02-24 08:10:38,926 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS sent
+2019-02-24 08:10:38,926 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS received
+2019-02-24 08:10:38,926 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_REQUEST sent
+2019-02-24 08:10:38,928 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_ACCEPT received
+2019-02-24 08:10:38,935 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: gssapi-with-mic,publickey,keyboard-interactive,password
+2019-02-24 08:10:38,935 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: gssapi-with-mic
+2019-02-24 08:10:38,937 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: publickey,keyboard-interactive,password
+2019-02-24 08:10:38,937 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: publickey
+2019-02-24 08:10:38,969 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentication succeeded (publickey).
+2019-02-24 08:10:38,970 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connected to master
+2019-02-24 08:10:38,970 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Looking for process running on port 8020
+2019-02-24 08:10:39,228 WARN org.apache.hadoop.ha.SshFenceByTcpPort: PATH=$PATH:/sbin:/usr/sbin fuser -v -k -n tcp 8020 via ssh: bash: fuser: command not found
+2019-02-24 08:10:39,230 INFO org.apache.hadoop.ha.SshFenceByTcpPort: rc: 127
+2019-02-24 08:10:39,230 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Disconnecting from master port 22
+2019-02-24 08:10:39,231 WARN org.apache.hadoop.ha.NodeFencer: Fencing method org.apache.hadoop.ha.SshFenceByTcpPort(null) was unsuccessful.
+2019-02-24 08:10:39,231 INFO org.apache.hadoop.ha.NodeFencer: Trying method 2/2: org.apache.hadoop.ha.ShellCommandFencer(/bin/true)
+2019-02-24 08:10:39,250 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Caught an exception, leaving main loop due to Socket closed
+2019-02-24 08:10:39,256 INFO org.apache.hadoop.ha.ShellCommandFencer: Launched fencing command '/bin/true' with pid 61040
+2019-02-24 08:10:39,257 INFO org.apache.hadoop.ha.NodeFencer: ====== Fencing successful by method org.apache.hadoop.ha.ShellCommandFencer(/bin/true) ======
+2019-02-24 08:10:39,258 INFO org.apache.hadoop.ha.ActiveStandbyElector: Writing znode /hadoop-ha/mycluster/ActiveBreadCrumb to indicate that the local node is the most recent active...
+2019-02-24 08:10:39,259 INFO org.apache.hadoop.ha.ZKFailoverController: Local service NameNode at slaver1/192.168.33.133:8020 entered state: SERVICE_NOT_RESPONDING
+2019-02-24 08:10:39,263 INFO org.apache.hadoop.ha.ZKFailoverController: Trying to make NameNode at slaver1/192.168.33.133:8020 active...
+2019-02-24 08:10:40,265 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:40,267 FATAL org.apache.hadoop.ha.ZKFailoverController: Couldn't make NameNode at slaver1/192.168.33.133:8020 active
+java.net.ConnectException: Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToActive(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToActive(HAServiceProtocolClientSideTranslatorPB.java:100)
+	at org.apache.hadoop.ha.HAServiceProtocolHelper.transitionToActive(HAServiceProtocolHelper.java:48)
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:382)
+	at org.apache.hadoop.ha.ZKFailoverController.access$900(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.becomeActive(ZKFailoverController.java:873)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:813)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 12 more
+2019-02-24 08:10:40,271 WARN org.apache.hadoop.ha.ActiveStandbyElector: Exception handling the winning of election
+org.apache.hadoop.ha.ServiceFailedException: Couldn't transition to active
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:401)
+	at org.apache.hadoop.ha.ZKFailoverController.access$900(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.becomeActive(ZKFailoverController.java:873)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:813)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToActive(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToActive(HAServiceProtocolClientSideTranslatorPB.java:100)
+	at org.apache.hadoop.ha.HAServiceProtocolHelper.transitionToActive(HAServiceProtocolHelper.java:48)
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:382)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 12 more
+2019-02-24 08:10:40,273 INFO org.apache.hadoop.ha.ActiveStandbyElector: Trying to re-establish ZK session
+2019-02-24 08:10:40,286 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1691e4fa48c0003 closed
+2019-02-24 08:10:41,287 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@5d4f6505
+2019-02-24 08:10:41,295 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server slaver2/192.168.33.134:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 08:10:41,298 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to slaver2/192.168.33.134:2181, initiating session
+2019-02-24 08:10:41,320 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server slaver2/192.168.33.134:2181, sessionid = 0x3691e4fba4f0002, negotiated timeout = 4000
+2019-02-24 08:10:41,322 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 08:10:41,323 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 08:10:41,323 INFO org.apache.hadoop.ha.ZKFailoverController: Quitting master election for NameNode at slaver1/192.168.33.133:8020 and marking that fencing is necessary
+2019-02-24 08:10:41,323 INFO org.apache.hadoop.ha.ActiveStandbyElector: Yielding from election
+2019-02-24 08:10:41,331 INFO org.apache.zookeeper.ZooKeeper: Session: 0x3691e4fba4f0002 closed
+2019-02-24 08:10:41,332 WARN org.apache.hadoop.ha.ActiveStandbyElector: Ignoring stale result from old client with sessionId 0x3691e4fba4f0002
+2019-02-24 08:10:41,332 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 08:10:43,337 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:43,339 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:45,344 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:45,349 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:47,353 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:47,355 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:49,359 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:49,361 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:51,365 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:51,367 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:53,372 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:53,373 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:55,378 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:55,380 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:57,383 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:57,386 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:10:59,391 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 08:10:59,392 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 08:18:08,337 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-02-24 08:18:08,360 INFO org.apache.hadoop.hdfs.tools.DFSZKFailoverController: Failover controller configured for NameNode NameNode at slaver1/192.168.33.133:8020
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=slaver1
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.8.0_144
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/java/jdk1.8.0_144/jre
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/opt/hadoop//etc/hadoop:/opt/hadoop/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/opt/hadoop/share/hadoop/common/lib/stax-api-1.0-2.jar:/opt/hadoop/share/hadoop/common/lib/activation-1.1.jar:/opt/hadoop/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/hadoop/share/hadoop/common/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/common/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/common/lib/jets3t-0.9.0.jar:/opt/hadoop/share/hadoop/common/lib/httpclient-4.2.5.jar:/opt/hadoop/share/hadoop/common/lib/httpcore-4.2.5.jar:/opt/hadoop/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-lang-2.6.jar:/opt/hadoop/share/hadoop/common/lib/commons-configuration-1.6.jar:/opt/hadoop/share/hadoop/common/lib/commons-digester-1.8.jar:/opt/hadoop/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/opt/hadoop/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/opt/hadoop/share/hadoop/common/lib/slf4j-api-1.7.10.jar:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar:/opt/hadoop/share/hadoop/common/lib/avro-1.7.4.jar:/opt/hadoop/share/hadoop/common/lib/paranamer-2.3.jar:/opt/hadoop/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-compress-1.4.1.jar:/opt/hadoop/share/hadoop/common/lib/xz-1.0.jar:/opt/hadoop/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/common/lib/gson-2.2.4.jar:/opt/hadoop/share/hadoop/common/lib/hadoop-auth-2.7.3.jar:/opt/hadoop/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/hadoop/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/opt/hadoop/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/opt/hadoop/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/opt/hadoop/share/hadoop/common/lib/zookeeper-3.4.6.jar:/opt/hadoop/share/hadoop/common/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/common/lib/curator-framework-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/curator-client-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/jsch-0.1.42.jar:/opt/hadoop/share/hadoop/common/lib/curator-recipes-2.7.1.jar:/opt/hadoop/share/hadoop/common/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop/share/hadoop/common/lib/junit-4.11.jar:/opt/hadoop/share/hadoop/common/lib/hamcrest-core-1.3.jar:/opt/hadoop/share/hadoop/common/lib/mockito-all-1.8.5.jar:/opt/hadoop/share/hadoop/common/lib/hadoop-annotations-2.7.3.jar:/opt/hadoop/share/hadoop/common/lib/guava-11.0.2.jar:/opt/hadoop/share/hadoop/common/lib/jsr305-3.0.0.jar:/opt/hadoop/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/hadoop/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/hadoop/share/hadoop/common/lib/xmlenc-0.52.jar:/opt/hadoop/share/hadoop/common/lib/commons-httpclient-3.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/hadoop/share/hadoop/common/lib/commons-codec-1.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/common/lib/commons-net-3.1.jar:/opt/hadoop/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/hadoop/share/hadoop/common/lib/servlet-api-2.5.jar:/opt/hadoop/share/hadoop/common/lib/jetty-6.1.26.jar:/opt/hadoop/share/hadoop/common/lib/jetty-util-6.1.26.jar:/opt/hadoop/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/hadoop/share/hadoop/common/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/common/lib/jersey-json-1.9.jar:/opt/hadoop/share/hadoop/common/lib/jettison-1.1.jar:/opt/hadoop/share/hadoop/common/hadoop-common-2.7.3.jar:/opt/hadoop/share/hadoop/common/hadoop-common-2.7.3-tests.jar:/opt/hadoop/share/hadoop/common/hadoop-nfs-2.7.3.jar:/opt/hadoop/share/hadoop/hdfs:/opt/hadoop/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/opt/hadoop/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/hadoop/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/hdfs/lib/guava-11.0.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/jsr305-3.0.0.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/opt/hadoop/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/opt/hadoop/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/opt/hadoop/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/hdfs/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/opt/hadoop/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/hdfs/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/hadoop/share/hadoop/hdfs/lib/netty-all-4.0.23.Final.jar:/opt/hadoop/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar:/opt/hadoop/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar:/opt/hadoop/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.3.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.3-tests.jar:/opt/hadoop/share/hadoop/hdfs/hadoop-hdfs-nfs-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/zookeeper-3.4.6-tests.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-lang-2.6.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guava-11.0.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jsr305-3.0.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-cli-1.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/activation-1.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/xz-1.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/servlet-api-2.5.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-codec-1.4.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-client-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/guice-3.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-io-2.4.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/asm-3.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-json-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jettison-1.1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/commons-collections-3.2.2.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/lib/jetty-6.1.26.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-api-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-common-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-common-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-tests-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-client-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.7.3.jar:/opt/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-registry-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/xz-1.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/hadoop-annotations-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/asm-3.2.jar:/opt/hadoop/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/opt/hadoop/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/opt/hadoop/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/opt/hadoop/share/hadoop/mapreduce/lib/guice-3.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/javax.inject-1.jar:/opt/hadoop/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/opt/hadoop/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/opt/hadoop/share/hadoop/mapreduce/lib/junit-4.11.jar:/opt/hadoop/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar:/opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.3-tests.jar:/contrib/capacity-scheduler/*.jar:/opt/hadoop/contrib/capacity-scheduler/*.jar:/opt/hadoop/contrib/capacity-scheduler/*.jar
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/opt/hadoop/lib
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.10.0-957.el7.x86_64
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=root
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/root
+2019-02-24 08:18:08,466 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/opt/hadoop-2.7.3
+2019-02-24 08:18:08,467 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@36902638
+2019-02-24 08:18:08,482 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server slaver2/192.168.33.134:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 08:18:08,487 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to slaver2/192.168.33.134:2181, initiating session
+2019-02-24 08:18:08,490 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2019-02-24 08:18:09,076 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server slaver1/192.168.33.133:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 08:18:09,078 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to slaver1/192.168.33.133:2181, initiating session
+2019-02-24 08:18:09,131 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server slaver1/192.168.33.133:2181, sessionid = 0x2691fa6d3210000, negotiated timeout = 4000
+2019-02-24 08:18:09,144 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 08:18:09,158 INFO org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2019-02-24 08:18:09,175 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 8019
+2019-02-24 08:18:09,194 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2019-02-24 08:18:09,196 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8019: starting
+2019-02-24 08:18:09,329 INFO org.apache.hadoop.ha.HealthMonitor: Entering state SERVICE_HEALTHY
+2019-02-24 08:18:09,329 INFO org.apache.hadoop.ha.ZKFailoverController: Local service NameNode at slaver1/192.168.33.133:8020 entered state: SERVICE_HEALTHY
+2019-02-24 08:18:09,350 INFO org.apache.hadoop.ha.ZKFailoverController: ZK Election indicated that NameNode at slaver1/192.168.33.133:8020 should become standby
+2019-02-24 08:18:09,362 INFO org.apache.hadoop.ha.ZKFailoverController: Successfully transitioned NameNode at slaver1/192.168.33.133:8020 to standby state
+2019-02-24 09:07:41,191 INFO org.apache.hadoop.ha.ActiveStandbyElector: Checking for any old active which needs to be fenced...
+2019-02-24 09:07:41,197 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.io.EOFException End of File Exception between local host is: "slaver1/192.168.33.133"; destination host is: "slaver1":8020; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException
+2019-02-24 09:07:41,197 INFO org.apache.hadoop.ha.HealthMonitor: Entering state SERVICE_NOT_RESPONDING
+2019-02-24 09:07:41,197 INFO org.apache.hadoop.ha.ZKFailoverController: Local service NameNode at slaver1/192.168.33.133:8020 entered state: SERVICE_NOT_RESPONDING
+2019-02-24 09:07:41,206 INFO org.apache.hadoop.ha.ActiveStandbyElector: Old node exists: 0a096d79636c757374657212036e6e311a066d617374657220d43e28d33e
+2019-02-24 09:07:41,210 INFO org.apache.hadoop.ha.ZKFailoverController: Should fence: NameNode at master/192.168.33.132:8020
+2019-02-24 09:07:42,217 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/192.168.33.132:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:42,222 WARN org.apache.hadoop.ha.FailoverController: Unable to gracefully make NameNode at master/192.168.33.132:8020 standby (unable to connect)
+java.net.ConnectException: Call From slaver1/192.168.33.133 to master:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToStandby(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToStandby(HAServiceProtocolClientSideTranslatorPB.java:112)
+	at org.apache.hadoop.ha.FailoverController.tryGracefulFence(FailoverController.java:172)
+	at org.apache.hadoop.ha.ZKFailoverController.doFence(ZKFailoverController.java:514)
+	at org.apache.hadoop.ha.ZKFailoverController.fenceOldActive(ZKFailoverController.java:505)
+	at org.apache.hadoop.ha.ZKFailoverController.access$1100(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.fenceOldActive(ZKFailoverController.java:892)
+	at org.apache.hadoop.ha.ActiveStandbyElector.fenceOldActive(ActiveStandbyElector.java:910)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:809)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 14 more
+2019-02-24 09:07:42,234 INFO org.apache.hadoop.ha.NodeFencer: ====== Beginning Service Fencing Process... ======
+2019-02-24 09:07:42,234 INFO org.apache.hadoop.ha.NodeFencer: Trying method 1/2: org.apache.hadoop.ha.SshFenceByTcpPort(null)
+2019-02-24 09:07:42,266 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connecting to master...
+2019-02-24 09:07:42,268 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connecting to master port 22
+2019-02-24 09:07:42,276 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Connection established
+2019-02-24 09:07:42,285 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Remote version string: SSH-2.0-OpenSSH_7.4
+2019-02-24 09:07:42,285 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Local version string: SSH-2.0-JSCH-0.1.42
+2019-02-24 09:07:42,285 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2019-02-24 09:07:42,458 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-ctr is not available.
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-ctr is not available.
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes256-cbc is not available.
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: aes192-cbc is not available.
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: arcfour256 is not available.
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT sent
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXINIT received
+2019-02-24 09:07:42,459 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: server->client aes128-ctr hmac-sha1 none
+2019-02-24 09:07:42,460 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: kex: client->server aes128-ctr hmac-sha1 none
+2019-02-24 09:07:42,468 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_KEXDH_INIT sent
+2019-02-24 09:07:42,468 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: expecting SSH_MSG_KEXDH_REPLY
+2019-02-24 09:07:42,474 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: ssh_rsa_verify: signature true
+2019-02-24 09:07:42,475 WARN org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Permanently added 'master' (RSA) to the list of known hosts.
+2019-02-24 09:07:42,475 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS sent
+2019-02-24 09:07:42,475 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_NEWKEYS received
+2019-02-24 09:07:42,478 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_REQUEST sent
+2019-02-24 09:07:42,479 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: SSH_MSG_SERVICE_ACCEPT received
+2019-02-24 09:07:42,481 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: gssapi-with-mic,publickey,keyboard-interactive,password
+2019-02-24 09:07:42,481 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: gssapi-with-mic
+2019-02-24 09:07:42,485 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentications that can continue: publickey,keyboard-interactive,password
+2019-02-24 09:07:42,485 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Next authentication method: publickey
+2019-02-24 09:07:42,554 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Authentication succeeded (publickey).
+2019-02-24 09:07:42,555 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Connected to master
+2019-02-24 09:07:42,555 INFO org.apache.hadoop.ha.SshFenceByTcpPort: Looking for process running on port 8020
+2019-02-24 09:07:42,808 WARN org.apache.hadoop.ha.SshFenceByTcpPort: PATH=$PATH:/sbin:/usr/sbin fuser -v -k -n tcp 8020 via ssh: bash: fuser: command not found
+2019-02-24 09:07:42,811 INFO org.apache.hadoop.ha.SshFenceByTcpPort: rc: 127
+2019-02-24 09:07:42,811 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Disconnecting from master port 22
+2019-02-24 09:07:42,814 WARN org.apache.hadoop.ha.NodeFencer: Fencing method org.apache.hadoop.ha.SshFenceByTcpPort(null) was unsuccessful.
+2019-02-24 09:07:42,814 INFO org.apache.hadoop.ha.NodeFencer: Trying method 2/2: org.apache.hadoop.ha.ShellCommandFencer(/bin/true)
+2019-02-24 09:07:42,816 INFO org.apache.hadoop.ha.SshFenceByTcpPort.jsch: Caught an exception, leaving main loop due to Socket closed
+2019-02-24 09:07:42,831 INFO org.apache.hadoop.ha.ShellCommandFencer: Launched fencing command '/bin/true' with pid 65154
+2019-02-24 09:07:42,836 INFO org.apache.hadoop.ha.NodeFencer: ====== Fencing successful by method org.apache.hadoop.ha.ShellCommandFencer(/bin/true) ======
+2019-02-24 09:07:42,836 INFO org.apache.hadoop.ha.ActiveStandbyElector: Writing znode /hadoop-ha/mycluster/ActiveBreadCrumb to indicate that the local node is the most recent active...
+2019-02-24 09:07:42,842 INFO org.apache.hadoop.ha.ZKFailoverController: Trying to make NameNode at slaver1/192.168.33.133:8020 active...
+2019-02-24 09:07:43,846 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:43,848 FATAL org.apache.hadoop.ha.ZKFailoverController: Couldn't make NameNode at slaver1/192.168.33.133:8020 active
+java.net.ConnectException: Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToActive(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToActive(HAServiceProtocolClientSideTranslatorPB.java:100)
+	at org.apache.hadoop.ha.HAServiceProtocolHelper.transitionToActive(HAServiceProtocolHelper.java:48)
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:382)
+	at org.apache.hadoop.ha.ZKFailoverController.access$900(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.becomeActive(ZKFailoverController.java:873)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:813)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 12 more
+2019-02-24 09:07:43,851 WARN org.apache.hadoop.ha.ActiveStandbyElector: Exception handling the winning of election
+org.apache.hadoop.ha.ServiceFailedException: Couldn't transition to active
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:401)
+	at org.apache.hadoop.ha.ZKFailoverController.access$900(ZKFailoverController.java:61)
+	at org.apache.hadoop.ha.ZKFailoverController$ElectorCallbacks.becomeActive(ZKFailoverController.java:873)
+	at org.apache.hadoop.ha.ActiveStandbyElector.becomeActive(ActiveStandbyElector.java:813)
+	at org.apache.hadoop.ha.ActiveStandbyElector.processResult(ActiveStandbyElector.java:418)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:599)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+Caused by: java.net.ConnectException: Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:792)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1479)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1412)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:229)
+	at com.sun.proxy.$Proxy9.transitionToActive(Unknown Source)
+	at org.apache.hadoop.ha.protocolPB.HAServiceProtocolClientSideTranslatorPB.transitionToActive(HAServiceProtocolClientSideTranslatorPB.java:100)
+	at org.apache.hadoop.ha.HAServiceProtocolHelper.transitionToActive(HAServiceProtocolHelper.java:48)
+	at org.apache.hadoop.ha.ZKFailoverController.becomeActive(ZKFailoverController.java:382)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:614)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:712)
+	at org.apache.hadoop.ipc.Client$Connection.access$2900(Client.java:375)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1528)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
+	... 12 more
+2019-02-24 09:07:43,853 INFO org.apache.hadoop.ha.ActiveStandbyElector: Trying to re-establish ZK session
+2019-02-24 09:07:43,869 INFO org.apache.zookeeper.ZooKeeper: Session: 0x2691fa6d3210000 closed
+2019-02-24 09:07:44,873 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=master:2181,slaver1:2181,slaver2:2181 sessionTimeout=1000 watcher=org.apache.hadoop.ha.ActiveStandbyElector$WatcherWithClientRef@185aa149
+2019-02-24 09:07:44,879 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server master/192.168.33.132:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-02-24 09:07:44,882 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to master/192.168.33.132:2181, initiating session
+2019-02-24 09:07:44,926 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server master/192.168.33.132:2181, sessionid = 0x1691fa6d3160000, negotiated timeout = 4000
+2019-02-24 09:07:44,928 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 09:07:44,930 INFO org.apache.hadoop.ha.ActiveStandbyElector: Session connected.
+2019-02-24 09:07:44,930 INFO org.apache.hadoop.ha.ZKFailoverController: Quitting master election for NameNode at slaver1/192.168.33.133:8020 and marking that fencing is necessary
+2019-02-24 09:07:44,930 INFO org.apache.hadoop.ha.ActiveStandbyElector: Yielding from election
+2019-02-24 09:07:44,942 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1691fa6d3160000 closed
+2019-02-24 09:07:44,943 WARN org.apache.hadoop.ha.ActiveStandbyElector: Ignoring stale result from old client with sessionId 0x1691fa6d3160000
+2019-02-24 09:07:44,943 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2019-02-24 09:07:46,945 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:46,948 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 09:07:48,953 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:48,955 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 09:07:50,960 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:50,961 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 09:07:52,962 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:52,965 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 09:07:54,969 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:54,997 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+2019-02-24 09:07:57,003 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: slaver1/192.168.33.133:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=1, sleepTime=1000 MILLISECONDS)
+2019-02-24 09:07:57,005 WARN org.apache.hadoop.ha.HealthMonitor: Transport-level exception trying to monitor health of NameNode at slaver1/192.168.33.133:8020: java.net.ConnectException: Connection refused Call From slaver1/192.168.33.133 to slaver1:8020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
